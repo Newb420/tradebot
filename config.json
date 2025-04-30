@@ -1,0 +1,32 @@
+{
+  "webhook": "https://discord.com/api/webhooks/1366300950104510506/gAxTNC27dDLFnnWC7qwzmpEPlUyk81YLXWkq5Wx_wFXsntE8YBPp7bFoKsoyHHZbbf6X",
+  "tradier_key": "rvlJZyrNUSVAsHNftFCIgPT2VKnC",
+  "tradier_live": true,  
+  "tickers": [
+    "^VIX",
+    "SPY",
+    "QQQ",
+    "DIA",
+    "IWM",
+    "XLK",
+    "XLF",
+    "NVDA",
+    "AAPL",
+    "TSLA",
+    "AMD",
+    "GME",
+    "WOLF",
+    "BTC-USD"
+  ],
+  "bands": {
+    "GME": {
+      "lower": 27.0,
+      "upper": 28.0
+    },
+    "WOLF": {
+      "lower": 3.0,
+      "upper": 4.0
+    }
+  },
+  "scan_interval": 60
+}
